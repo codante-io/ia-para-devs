@@ -134,10 +134,10 @@ export default function Contact() {
                     <div>
                       <p className="font-medium text-gray-900">E-mail</p>
                       <a
-                        href="mailto:contato@iaparadevs.com.br"
+                        href="mailto:contato@codante.io"
                         className="text-brand hover:text-brand/80"
                       >
-                        contato@iaparadevs.com.br
+                        contato@codante.io
                       </a>
                     </div>
                   </div>

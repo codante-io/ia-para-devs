@@ -8,14 +8,16 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="flex items-center space-x-3 mb-4 md:mb-0">
             <Link href="/" className="transition-opacity hover:opacity-80">
-              <Logo
-                variant="light"
-                className="h-6"
-              />
+              <div className="w-40">
+                <Logo variant="light" />
+              </div>
             </Link>
           </div>
           <div className="flex items-center space-x-6 text-sm text-gray-400">
-            <a href="/privacidade" className="hover:text-white transition-colors">
+            <a
+              href="/privacidade"
+              className="hover:text-white transition-colors"
+            >
               Política de Privacidade
             </a>
             <a href="/termos" className="hover:text-white transition-colors">

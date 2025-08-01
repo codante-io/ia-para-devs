@@ -26,23 +26,37 @@ export default function NotFound() {
                 />
               </div>
               {/* Título com temática jurídica */}
-              <h2 className="text-5xl font-extralight  text-brand mb-2">
-                Processo Não Encontrado
+              <h2 className="text-5xl font-extralight text-brand mb-2">
+                Página Não Renderizada
               </h2>
-              {/* Texto simplificado */}
+              {/* Texto com temática de IA */}
               <p className="text-lg text-gray-600 mb-12 max-w-xl mx-auto">
-                A página que você está procurando não foi encontrada...
+                Nossa inteligência artificial não conseguiu encontrar o conteúdo
+                que você está procurando.
               </p>
-              {/* Artigo fictício */}
-              <div className="bg-gray-50  max-w-xl mx-auto text-left p-4 rounded-lg mb-12 text-sm text-gray-700 border-l-4 border-brand">
-                <p className="font-semibold mb-2">
-                  Art. 404º - Do Conteúdo Não Encontrado
+              {/* Bloco de código fictício */}
+              <div className="bg-gray-800 text-white max-w-xl mx-auto text-left p-4 rounded-lg mb-12 text-sm font-mono border-l-4 border-brand">
+                <p className="text-gray-400">// IA Log: Rota não encontrada</p>
+                <p>
+                  <span className="text-purple-400">const</span> path =
+                  window.location.pathname;
                 </p>
-                <p className="text-xs">
-                  Considera-se inexistente a página que não pode ser localizada
-                  nos repositórios digitais, devendo o usuário ser redirecionado
-                  aos caminhos legalmente constituídos.
+                <p>
+                  <span className="text-blue-400">resolveRoute</span>(path)
+                  <span className="text-yellow-400">.catch</span>
+                  {` (error => {`}
                 </p>
+                <p className="pl-4">
+                  <span className="text-red-400">logError</span>({'{'}{' '}
+                </p>
+                <p className="pl-8">
+                  code: <span className="text-green-400">'404_NOT_FOUND'</span>,
+                </p>
+                <p className="pl-8">
+                  message: `Página ${'{'}path{'}'} não encontrada`,
+                </p>
+                <p className="pl-4">{'}'});</p>
+                <p>{'}'});</p>
               </div>
               {/* Botões de ação */}
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

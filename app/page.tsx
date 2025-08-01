@@ -7,7 +7,7 @@ import Header from '@/components/Header';
 import NewsletterForm from '@/components/NewsletterForm';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
-import { CheckCircle } from 'lucide-react';
+import { CheckCircle, Bot } from 'lucide-react';
 import Image from 'next/image';
 
 export default function IAParaDevsPage() {
@@ -23,7 +23,7 @@ export default function IAParaDevsPage() {
             <div className="order-2 lg:order-1 max-w-sm">
               <Image
                 src={pcBlenderImage}
-                alt="PC Blender - Inteligência Artificial e Direito"
+                alt="PC Blender - Inteligência Artificial para Devs"
                 className="w-auto"
                 priority
               />
@@ -32,18 +32,30 @@ export default function IAParaDevsPage() {
             {/* Right side - Content */}
             <div className="order-1 lg:order-2 text-center lg:text-left w-full max-w-2xl mx-auto lg:mx-0">
               <Badge className="mb-6 bg-brand/10 text-brand hover:bg-brand/20">
-                🚀 Junte-se a essa revolução!
+                🚀 Junte-se a nós!
               </Badge>
               <h1 className="text-5xl font-heading md:text-6xl font-light text-gray-800 mb-6 leading-17">
                 A melhor <span className="font-bold">newsletter</span> de
                 <span className="text-brand block font-bold">
-                  Inteligência Artificial e Direito
+                  Inteligência Artificial para Devs
                 </span>
               </h1>
               <p className="text-xl text-gray-600 mb-8 max-w-2xl lg:max-w-none lg:mx-0 mx-auto">
                 Receba as últimas tendências do setor, análises especializadas e
                 dicas práticas diretamente na sua caixa de entrada todas as{' '}
                 <strong>terças-feiras</strong>.
+              </p>
+              <p className="text-lg text-gray-600 mb-8 max-w-2xl lg:max-w-none lg:mx-0 mx-auto flex items-center justify-center lg:justify-start gap-2">
+                Ah, e não se preocupe - ela é feita totalmente por humanos
+                <span>
+                  <svg
+                    className="inline-block h-5 w-5 text-brand"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <Bot />
+                  </svg>
+                </span>
               </p>
 
               {/* Newsletter Signup Form */}
@@ -81,7 +93,7 @@ export default function IAParaDevsPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Por que ler a melhor newsletter de IA e Direito?
+              Por que ler a <span className="text-brand">IA para Devs?</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Não é mais possível viver no passado. Se você ainda está "por
@@ -151,7 +163,7 @@ export default function IAParaDevsPage() {
       <section className="py-20 bg-brand text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold mb-4">
-            Pronto para Ficar à Frente?
+            Pronto para ficar à frente?
           </h2>
           <p className="text-xl mb-8 text-blue-100 max-w-2xl mx-auto">
             Confie em nós para entregarmos em sua caixa de entrada os insights

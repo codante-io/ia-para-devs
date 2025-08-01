@@ -9,14 +9,15 @@ const lexend = Lexend({
 
 export const metadata: Metadata = {
   title: 'IA para Devs',
-  description: 'IA para Devs - A melhor newsletter de Inteligência Artificial e Direito',
+  description:
+    'IA para Devs - A melhor newsletter de Inteligência Artificial para desenvolvedores',
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: '32x32' },
-      { url: '/icon.svg', type: 'image/svg+xml' }
+      { url: '/icon.svg', type: 'image/svg+xml' },
     ],
-    apple: '/apple-touch-icon.png'
-  }
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({

@@ -1,0 +1,33 @@
+<svg width="1153" height="625" viewBox="0 0 1153 625" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .horizontal-line {
+      transition: transform 0.3s ease-in-out;
+      }
+      .svg-404:hover .horizontal-line {
+      transform: translateX(-20px);
+      }
+    </style>
+  </defs>
+  <g class="svg-404">
+    <path
+      d="M174.5 500V217L220 218L93.5 373L81.5 358H313.5V428H43.5L9.5 362.5L188 147H256.5V500H174.5Z"
+      fill="#004080" />
+    <path
+      d="M995.5 500V217L1041 218L914.5 373L902.5 358H1134.5V428H864.5L830.5 362.5L1009 147H1077.5V500H995.5Z"
+      fill="#004080" />
+    <!-- Main circle shape without the horizontal lines -->
+    <path
+      d="M577.72 110.004C689.004 110.709 779 201.14 779 312.591L778.996 313.9C778.291 425.185 687.86 515.18 576.41 515.181L575.1 515.177C464.251 514.475 374.525 424.749 373.823 313.9L373.819 312.591C373.819 200.703 464.523 110 576.41 110L577.72 110.004ZM576.41 138.31C480.157 138.31 402.129 216.338 402.129 312.591C402.129 408.843 480.158 486.871 576.41 486.871C625.561 486.871 669.957 466.522 701.641 433.792C736.935 390.197 750.69 353.001 750.69 312.591C750.69 272.145 736.911 234.919 713.793 205.347C703.091 192.904 671.319 159.288 626.316 138.31 576.41 138.31Z"
+      fill="#004080" />
+    <!-- Separated horizontal lines with animation class -->
+    <rect class="horizontal-line" x="665.72" y="405.617" width="48.134" height="28.154" rx="14.077" fill="#004080" />
+    <rect class="horizontal-line" x="665.72" y="192.495" width="48.134" height="28.309" rx="14.154" fill="#004080" />
+    <rect class="horizontal-line" x="642.177" y="351.098" width="95.219" height="28.308" rx="14.154"
+      fill="#004080" />
+    <rect class="horizontal-line" x="631.024" y="299.056" width="116.285" height="28.308"
+      rx="14.154" fill="#004080" />
+    <rect class="horizontal-line" x="643.415" y="245.774" width="95.22" height="28.309" rx="14.154"
+      fill="#004080" />
+  </g>
+</svg>

@@ -36,7 +36,7 @@ export default function NotFound() {
               </p>
               {/* Bloco de código fictício */}
               <div className="bg-gray-800 text-white max-w-xl mx-auto text-left p-4 rounded-lg mb-12 text-sm font-mono border-l-4 border-brand">
-                <p className="text-gray-400">// IA Log: Rota não encontrada</p>
+                <p className="text-gray-400">{`// IA Log: Rota não encontrada`}</p>
                 <p>
                   <span className="text-purple-400">const</span> path =
                   window.location.pathname;
